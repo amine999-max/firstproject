@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0 ;
     box-sizing: box-border ;
+    background: url(https://t3.ftcdn.net/jpg/08/31/03/36/240_F_831033646_lQnPlUrYkIYTJ6VIQcYlEz620RkbbmSB.webp) no-repeat;
+
 }
 
 .bac {
     min-height: 100vh;
-    background: url(https://img.freepik.com/photos-premium/scene-arriere-plan-vide-reflexion-rue-sombre-asphalte-humide-rayons-neon-dans-obscurite-formes-neon-fumee-contexte-spectacle-scene-vide-abstrait-fond-sombre_183410-54.jpg?ga=GA1.1.1642889596.1730900997&semt=ais_hybrid) no-repeat;
+    background: url(https://t3.ftcdn.net/jpg/08/31/03/36/240_F_831033646_lQnPlUrYkIYTJ6VIQcYlEz620RkbbmSB.webp) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -56,8 +58,104 @@ img{
 
 .prod {
     min-height: 100vh;
-    background: url(https://img.freepik.com/photos-premium/inspiration-tableau-noir-liberant-creativite-toile-tableau-noir_894855-3728.jpg?w=740) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .product-card {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .product-card img {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .product-title {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .product-description {
+    margin: 10px 0;
+  }
+
+  .product-price {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: whitesmoke;
+  }
+  #button {
+    background-color: #0439aa; 
+    border: none;
+    color:red;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    cursor: pointer;
+    }
+    #button:hover {
+
+        color: rgb(237, 244, 247);
+
+        background-color: rgba(11, 202, 161, 0.795);
+
+        }
+        #myInput {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+          }
+
+        .cart {
+            margin-top: 80px;
+        }
+        .cart ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .cart li {
+            margin-bottom: 10px;
+        }
+        .cart h2 {
+            margin-top: 0;
+        }
+
+
+        .product-card h3 {
+            color:red;
+            font-size: 56px;
+        }
+        .product-card p {
+            color :blanchedalmond;
+            font-size: 56px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: red;
+            color: black;
+            font-size: 150px;
+          
+            
+          }
